@@ -1,13 +1,6 @@
+import { UserState } from '@core/interfaces';
 import { createReducer, on } from '@ngrx/store';
 import { loadUser } from '../actions';
-
-export interface UserState {
-  id: string | null;
-  user: string | null;
-  loaded: boolean;
-  loading: boolean;
-  error: any;
-}
 
 export const UserInitialState: UserState = {
   id: null,
