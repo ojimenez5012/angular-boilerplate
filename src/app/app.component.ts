@@ -9,7 +9,7 @@ import { loadUser } from '@store/actions';
 })
 export class AppComponent {
   title = 'angular-boilerplate';
-  name = "hola";
+  name = 'hola';
 
   constructor(private store: Store) {}
   getUser() {

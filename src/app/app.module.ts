@@ -18,8 +18,6 @@ import { appReducers } from './store/store';
     }),
   ],
   providers: [{ provide: LOCALE_ID, useValue: 'en-US' }],
-  bootstrap: [
-    AppComponent
-  ],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
