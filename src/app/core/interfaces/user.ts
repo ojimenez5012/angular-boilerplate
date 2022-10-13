@@ -3,7 +3,7 @@ export interface UserState {
   user: User | null;
   loaded: boolean;
   loading: boolean;
-  error: any;
+  error: string | null;
 }
 
 export interface User {

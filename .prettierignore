@@ -1,5 +1,11 @@
 package.json
 package-lock.json
 dist
+.angular
+.vscode
 e2e/**
+src/environments/**
+src/main.ts
+src/polyfills.ts
+src/test.ts
 karma.conf.js
